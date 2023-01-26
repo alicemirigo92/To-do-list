@@ -61,40 +61,27 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Awesome Books!] <a name="In this project we are able to create book list and manupulate them.I Used the ES6 syntax"></a>
+# 📖 [To-do list!] <a name=""></a>
 
-> In this project i created book list that i used javascript to manupulate it
+> In this project I created a To-do List using the Webpack as a module bundler.
 
-**[Awesome books!]** is a...
 
 ## 🛠 Built With <a name="built-with"></a>
-Use HTML/CSS
-Use basic JavaScript syntax.
-Use JavaScript to manipulate DOM elements.
-Use JavaScript events.
-
+Webpack 
+JavaScript
 ### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://localhost:3000/">localhost</a></li>
   </ul>
 </details>
 
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="#">Webpack dev server</a></li>
   </ul>
 </details>
 
@@ -104,9 +91,9 @@ Use JavaScript events.
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[Add tasks]**
+- **[Remove tasks ]**
+- **[Edit tasks]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -114,8 +101,8 @@ Use JavaScript events.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-
-- [Live Demo Link](https://alicemirigo92.github.io/Awesome-book-ES6/)
+- No deployment yet.
+<!-- - [Live Demo Link]() -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -211,13 +198,11 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/alicemirigo92)
-- Twitter: [@twitterhandle](https://twitter.com/GathoniMirigo)
-- LinkedIn: [LinkedIn](www.linkedin.com/in/alice-mirigo)
+- GitHub: [@alicemirigo92](https://github.com/alicemirigo92)
+- Twitter: [@Gathonimirigo](https://twitter.com/GathoniMirigo)
+- LinkedIn: [Alice](www.linkedin.com/in/alice-mirigo)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
