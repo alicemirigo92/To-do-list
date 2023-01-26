@@ -1,7 +1,7 @@
-/*eslint-disable import/no-unresolved*/
+/* eslint-disable import/no-unresolved */
+
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const { ESLint } = require('eslint');
 
 module.exports = {
   mode: 'development',
@@ -36,4 +36,3 @@ module.exports = {
     hints: false,
   },
 };
-
