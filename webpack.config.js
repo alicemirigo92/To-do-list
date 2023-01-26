@@ -12,6 +12,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
+      template: './src/index.html',
     }),
   ],
   output: {
@@ -36,4 +37,3 @@ module.exports = {
   },
 };
 
-template: './src/index.html',
