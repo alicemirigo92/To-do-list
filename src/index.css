@@ -5,9 +5,18 @@
   font-family: 'Times New Roman', Times, serif;
 }
 
+
+h1 {
+  width: 100%;
+  padding: 8px;
+  text-align: center;
+}
+
+
 ul {
   list-style-type: none;
 }
+
 
 body {
   display: flex;
@@ -16,6 +25,7 @@ body {
   align-items: center;
 }
 
+
 #container {
   border: 2px solid #c4c5c6;
   width: 60vw;
@@ -23,17 +33,20 @@ body {
   box-shadow: 0 3px 3px 3px #c4c5c6;
 }
 
+
 #headline {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+
 h1 {
   font-weight: bolder;
   font-weight: lighter;
   margin-left: 2%;
 }
+
 
 #todo-container {
   border: 1px solid rgb(216, 215, 215);
@@ -43,10 +56,12 @@ h1 {
   background: rgb(216, 215, 215);
 }
 
+
 input[type=checkbox],
 .bi-three-dots-vertical {
   cursor: pointer;
 }
+
 
 .todo {
   box-sizing: border-box;
@@ -57,6 +72,7 @@ input[type=checkbox],
   padding: 10px 0;
 }
 
+
 #clear {
   cursor: pointer;
   font-size: 16px;
@@ -66,6 +82,7 @@ input[type=checkbox],
   border: none;
 }
 
+
 #form {
   border: 1px solid rgb(216, 215, 215);
   border-bottom: none;
@@ -74,20 +91,31 @@ input[type=checkbox],
   padding-right: 20px;
 }
 
+
 #addlist {
   border: none;
   width: 100%;
   padding: 10px 20px;
 }
 
-#addlist:focus {
+
+#addlist:focus,
+span:focus {
   outline: none;
 }
+
+
+
 
 .bi-arrow-return-left {
   font-size: 20px;
 }
 
-.bi-three-dots-vertical:hover {
-  visibility: hidden;
+
+.bi {
+  cursor: pointer;
+  font-size: 20px;
+}
+.bi-trash-fill {
+  color: red;
 }
