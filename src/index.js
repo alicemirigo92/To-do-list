@@ -1,6 +1,6 @@
 import './index.css';
-import Add from './modules/add';
-import Clear from './modules/clear';
+import Add from './modules/add.js';
+import Clear from './modules/clear.js';
 import Display from './modules/display.js';
 
 const form = document.getElementById('form');

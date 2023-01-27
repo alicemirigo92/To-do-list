@@ -1,5 +1,3 @@
-import Display from './display.js';
-
 export default class Remove {
   constructor(id) {
     this.id = id;
@@ -11,15 +9,15 @@ export default class Remove {
     const todos = JSON.parse(localStorage.getItem('todos')) || [];
     const remainingTodos = todos.filter((t) => t.index !== this.id);
     const largerIndexes = remainingTodos.filter((t) => t.index > this.id);
-    let children = this.list.childNodes;
+    const children = this.list.childNodes;
 
     if (largerIndexes.length) {
       largerIndexes.forEach((t) => {
-        t.index--;
+        t.index -= 1;
       });
     }
     this.list.removeChild(this.todoItem);
-    for (let i = 0; i < children.length; i++) {
+    for (let i = 0; i < children.length; i += 1) {
       if (+children[i].id > this.id) {
         children[i].id = +children[i].id - 1;
       }
