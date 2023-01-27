@@ -9,7 +9,7 @@ export default class Add {
 
   addTodo() {
     const todos = JSON.parse(localStorage.getItem('todos')) || [];
-    this.todo.index = todos.length + 1;
+    this.todo.index = todos.length;
     todos.push(this.todo);
     const display = new Display();
     display.showTodo(this.todo);
