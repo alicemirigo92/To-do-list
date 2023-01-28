@@ -1,23 +1,26 @@
-import todos from './todos/todos.js';
 import './index.css';
+import Add from './modules/add.js';
+import Clear from './modules/clear.js';
+import Display from './modules/display.js';
 
-const list = document.getElementById('todo-container');
-todos.sort((a, b) => a.index > b.index).forEach((t) => {
-  const li = document.createElement('li');
-  const input = document.createElement('input');
-  const span = document.createElement('span');
-  const i = document.createElement('i');
+const form = document.getElementById('form');
+const clear = document.getElementById('clear');
+const display = new Display();
 
-  li.setAttribute('class', 'todo');
-  input.setAttribute('type', 'checkbox');
-  input.checked = t.completed;
-  span.textContent = t.description;
-  i.setAttribute('class', 'bi bi-three-dots-vertical');
+display.displayTodos();
 
-  li.append(input, span, i);
-  list.append(li);
-
-  if (t.completed) {
-    li.style.textDecoration = 'line-through';
+form.addEventListener('submit', (e) => {
+  const description = document.getElementById('addlist').value.trim();
+  e.preventDefault();
+  if (description) {
+    const todo = new Add(description);
+    todo.addTodo();
   }
+  form.reset();
+});
+
+clear.addEventListener('click', () => {
+  const clear = new Clear();
+  clear.clearTodos();
+  display.displayTodos();
 });

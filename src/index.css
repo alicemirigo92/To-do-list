@@ -5,6 +5,10 @@
   font-family: 'Times New Roman', Times, serif;
 }
 
+h1 {
+  text-align: center;
+}
+
 ul {
   list-style-type: none;
 }
@@ -27,12 +31,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-h1 {
-  font-weight: bolder;
-  font-weight: lighter;
-  margin-left: 2%;
 }
 
 #todo-container {
@@ -80,7 +78,8 @@ input[type=checkbox],
   padding: 10px 20px;
 }
 
-#addlist:focus {
+#addlist:focus,
+span:focus {
   outline: none;
 }
 
@@ -88,6 +87,11 @@ input[type=checkbox],
   font-size: 20px;
 }
 
-.bi-three-dots-vertical:hover {
-  visibility: hidden;
+.bi {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.bi-trash-fill {
+  color: red;
 }
