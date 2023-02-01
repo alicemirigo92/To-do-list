@@ -1,42 +1,6 @@
 # To-do list
 <a name="Alice"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="logo.jpg" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
-
-</div>
-
-<!-- TABLE OF CONTENTS -->
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -56,39 +20,29 @@ After you're finished please remove all the comments and instructions!
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
+# 📖 To Do list <a name="about-project"></a>
 
-# 📖 [To-do list!] <a name=""></a>
-
-> In this project I created a To-do List using the Webpack as a module bundler.
-
+> **To do list** project is a digital tool that allows users to organize and prioritize their tasks by creating, editing, and deleting items on a list.
 
 ## 🛠 Built With <a name="built-with"></a>
-Webpack 
-JavaScript
+
 ### Tech Stack <a name="tech-stack"></a>
 
+Webpack 
+JavaScript
+
 <details>
-  <summary>Client</summary>
+  <summary>Build With</summary>
   <ul>
-    <li><a href="https://localhost:3000/">localhost</a></li>
+    <li><a href="https://html.com/">HTML</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
+    <li><a href="https://www.javascript.com/">JavaScript</a></li>
   </ul>
 </details>
 
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="#">Webpack dev server</a></li>
-  </ul>
-</details>
-
-<!-- Features -->
-
-### Key Features <a name="key-features"></a>
-
+## 🔭 Key Features <a name="Key-features"></a>
 
 - **[Add tasks]**
 - **[Remove tasks ]**
@@ -96,116 +50,67 @@ JavaScript
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- No deployment yet.
-<!-- - [https://alicemirigo92.github.io/To-do-list/]() -->
+> Add a link to your deployed project.
+
+- [Coming soon](https://alicemirigo92.github.io/To-do-list/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
-
 ## 💻 Getting Started <a name="getting-started"></a>
-
-Getting Started
-Cloning the project
-Git clone 
-To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-In order to run this project you need:
-
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+In order to run this project you need: a properly working pc or laptop and a modern web browser.
 
 ### Setup
 
-Getting Started
-Cloning the project
-Git clone 
-To get a local copy up and running follow these simple example steps.
-
-<!--
-Example commands:
+Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone https://github.com/lilskyex0x/To-Do-list.git
 ```
---->
 
 ### Install
 
 Install this project with:
 
-<!--
-Example command:
-
 ```sh
-  cd my-project
-  gem install
+  cd my-folder
+  git clone https://github.com/lilskyex0x/To-Do-list.git
 ```
---->
 
 ### Usage
 
-To run the project, execute the following command:
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
+To run the project, open index.html in your web browser.
 
 ### Run tests
 
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
+To run tests, run the following command: Right click on the index.html document then open with live server. Make sure live server extension is install in your text editor.
 
 ### Deployment
 
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
+You can deploy this project using: GitHub but if you want to deploy make sure you let me know first :3
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
-
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author1**
+👤 **Aung Pyae Khant**
 
-- GitHub: [@alicemirigo92](https://github.com/alicemirigo92)
+- GitHub: [Aung Pyae Khant](https://github.com/lilskyex0x)
+- Twitter: [Aung Pyae Khant](https://twitter.com/LilSn0w45)
+- LinkedIn: [Aung Pyae Khant](https://linkedin.com/in/aung-pyae-khant-932342251)
+
+👤 **Alice Mirigo**
+
+- GitHub: [Alice Mirigo](https://github.com/alicemirigo92)
 - Twitter: [@Gathonimirigo](https://twitter.com/GathoniMirigo)
 - LinkedIn: [Alice](www.linkedin.com/in/alice-mirigo)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
@@ -215,8 +120,6 @@ Example:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- CONTRIBUTING -->
-
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
@@ -225,42 +128,17 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- SUPPORT -->
-
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project, please, share it with your friends.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> According to the requirement, i acknowledge Cindy Shin the author of the original design, as required by the Creative Commons License.
-
+I would like to thank Microverse for providing such a valuable resource to people like me who are trying to break into the tech industry. I am forever grateful for the opportunity to be a part of the Microverse community.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-Does this help me solve my current problems?
-  - [Answer_1]
-If you need to understand about to-do list then this will help you.
-- **[Question_2]**
-How to configure webpack
-  - [Answer_2]
-This has webpack so it will help you understand.
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
