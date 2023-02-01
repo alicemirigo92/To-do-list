@@ -1,4 +1,5 @@
-<a name="readme-top"></a>
+# To-do list
+<a name="Alice"></a>
 
 # 📗 Table of Contents
 
@@ -29,6 +30,9 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
+Webpack 
+JavaScript
+
 <details>
   <summary>Build With</summary>
   <ul>
@@ -40,9 +44,9 @@
 
 ## 🔭 Key Features <a name="Key-features"></a>
 
-- [ ] **list Input**
-- [ ] **Clear all button**
-- [ ] **Color usage**
+- **[Add tasks]**
+- **[Remove tasks ]**
+- **[Edit tasks]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -50,7 +54,7 @@
 
 > Add a link to your deployed project.
 
-- [To-do list](https://lilskyex0x.github.io/To-Do-list/)
+- [Coming soon](https://alicemirigo92.github.io/To-do-list/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -103,15 +107,16 @@ You can deploy this project using: GitHub but if you want to deploy make sure yo
 👤 **Alice Mirigo**
 
 - GitHub: [Alice Mirigo](https://github.com/alicemirigo92)
-- Twitter: [Aung Pyae Khant](https://twitter.com/LilSn0w45)
-- LinkedIn: [Aung Pyae Khant](https://linkedin.com/in/aung-pyae-khant-932342251)
+- Twitter: [@Gathonimirigo](https://twitter.com/GathoniMirigo)
+- LinkedIn: [Alice](www.linkedin.com/in/alice-mirigo)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Add and remove function**
-- [ ] **Interactive**
+- [ ] **[Make the list interactive]**
+- [ ] **[Use javascript to make interactions]**
+- [ ] **[new_feature_3]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -137,6 +142,8 @@ I would like to thank Microverse for providing such a valuable resource to peopl
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](MIT.md) licensed.
+This project is [MIT](./LICENSE) licensed.
+
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
