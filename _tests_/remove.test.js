@@ -1,17 +1,17 @@
 import Remove from '../src/modules/remove.js';
 
-// const todos = [
-//   {
-//     description: 'wash',
-//     completed: false,
-//     index: 1,
-//   },
-//   {
-//     description: 'wash',
-//     completed: false,
-//     index: 3,
-//   },
-// ];
+const todos = [
+  {
+    description: 'wash',
+    completed: false,
+    index: 1,
+  },
+  {
+    description: 'wash',
+    completed: false,
+    index: 3,
+  },
+];
 localStorage.setItem('todos', JSON.stringify(todos));
 
 document.body.innerHTML = `
