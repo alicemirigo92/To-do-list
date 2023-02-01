@@ -1,8 +1,8 @@
 import Add from '../src/modules/add.js';
 
-document.body.innerHTML = `
-<ul id="todo-container"></ul>
-`;
+// document.body.innerHTML = `
+// <ul id="todo-container"></ul>
+// `;
 
 describe('The function', () => {
   test('Adds an item to the DOM', () => {
