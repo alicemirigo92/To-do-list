@@ -1,22 +1,27 @@
-// import Add from '../src/modules/add';
+import Add from '../src/modules/add.js';
 
-// document.body.innerHTML = `
-// <ul id="todo-container">
-// <li class="todo" id="1">
-//   <input type="checkbox" />
-//     <span contenteditable="true">
-//       hahahharf
-//     </span>
-//     <i class="bi bi-three-dots-vertical"></i>
-// </li>
-// </ul>
-// `
+document.body.innerHTML = `
+<ul id="todo-container"></ul>
+`;
 
+describe('The function', () => {
+  test('Adds an item to the DOM', () => {
+    const container = document.getElementById('todo-container');
+    expect(container.childNodes).toHaveLength(0);
 
-// test('Removes task the DOM', () => {
-//   const lists = document.getElementById('todo-container');
-//   const add = new Add(1)
-//   expect(lists.childNodes).toHaveLength(3);
-//   add.addTodo();
-//   expect(lists.childNodes).toHaveLength(2);
-// });
+    const add = new Add('cry', false, 1);
+    add.addTodo();
+
+    const todoList = JSON.parse(localStorage.getItem('todos'));
+    expect(todoList).toHaveLength(1);
+    expect(container.childNodes).toHaveLength(1);
+  });
+
+  test('Adds an item localstorage', () => {
+    const add = new Add('cry', false, 1);
+    add.addTodo();
+
+    const todoList = JSON.parse(localStorage.getItem('todos'));
+    expect(todoList).toHaveLength(2);
+  });
+});
