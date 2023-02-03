@@ -54,7 +54,7 @@ JavaScript
 
 > Add a link to your deployed project.
 
-- [Coming soon](https://alicemirigo92.github.io/To-do-list/)
+- [Live-demo ](t https://alicemirigo92.github.io/To-do-list/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
