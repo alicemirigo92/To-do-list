@@ -1,12 +1,12 @@
 import Check from '../src/modules/check.js';
 
-// const todos = [
-//   {
-//     description: 'wash',
-//     completed: false,
-//     index: 1,
-//   },
-// ];
+const todos = [
+  {
+    description: 'wash',
+    completed: false,
+    index: 1,
+  },
+];
 
 localStorage.setItem('todos', JSON.stringify(todos));
 
@@ -18,4 +18,4 @@ describe('The function', () => {
     const todoList = JSON.parse(localStorage.getItem('todos'));
     expect(todoList[0].completed).toBe(true);
   });
-})
+});

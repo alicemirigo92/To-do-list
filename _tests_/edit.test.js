@@ -1,16 +1,15 @@
 import Edit from '../src/modules/edit.js';
 
-
 describe('edit class', () => {
   let edit;
   let event;
   const todos = [{ index: 1, description: 'todo 1' }, { index: 2, description: 'todo 2' }];
 
-  // beforeEach(() => {
-  //   localStorage.setItem('todos', JSON.stringify(todos));
-  //   event = { target: { parentNode: { id: '1' }, textContent: 'edited todo' } };
-  //   edit = new Edit(event);
-  // });
+  beforeEach(() => {
+    localStorage.setItem('todos', JSON.stringify(todos));
+    event = { target: { parentNode: { id: '1' }, textContent: 'edited todo' } };
+    edit = new Edit(event);
+  });
 
   afterEach(() => {
     localStorage.clear();
